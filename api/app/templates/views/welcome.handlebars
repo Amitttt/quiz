@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1.0, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 1px solid black;
+                margin: 5%;">
+        <div style="padding: 50px;">
+                {{>header}}
+                <p style="font-weight: 100;
+                        font-size: 16px ;
+                        line-height: 37px;
+                        font-family: Verdana;
+                        color: #1C1E3A;
+                        font-family: Verdana;">
+                    Hi,
+                </p>
+                <p style="font-weight: 100;
+                        font-size: 16px ;
+                        line-height: 37px;
+                        font-family: Verdana;
+                        color: #1C1E3A;
+                        font-family: Verdana;">
+                   {{data.message}}
+                </p>
+                
+                <br>
+            </div>
+        {{>footer}}
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.login-logo{
+  background-color: #0DC377;
+  padding: 10px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.error-block{
+  color: #DD4B39 ;
+}
+
+.login-page{
+  width: 360px;
+    margin: 7% auto;
+}
+
+.login-box-body, .register-box-body {
+  background: #fff;
+  padding: 20px;
+  border-top: 0;
+  color: #666;
+  background-color: #dcdcdceb;
+}
